@@ -6,7 +6,7 @@ const App = () => {
   return (
      <BrowserRouter>
          <Routes>
-             <Route path="/todoList" element={<TodoList/>}/>
+             <Route path="/" element={<TodoList/>}/>
          </Routes>
      </BrowserRouter>
   );
