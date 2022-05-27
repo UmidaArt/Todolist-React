@@ -5,9 +5,25 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: url("images/pexels-photo-1089462.webp");
+  width: 100vw;
+  height: 100vh;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+* {
+  box-sizing: border-box;
+}
+.row {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -15px;
+}
+.col-4 {
+  width: 33.3333%;
+  padding: 0 15px;
 }

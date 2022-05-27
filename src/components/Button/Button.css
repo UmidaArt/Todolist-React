@@ -1,0 +1,10 @@
+.btnGroup {
+    margin-top: 20px;
+}
+.btn-success {
+    background-color: lightgreen;
+    margin-right: 20px;
+}
+.btn-danger {
+    background-color: red;
+}
